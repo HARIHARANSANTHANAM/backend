@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
+require('dotenv').config();
 
 app.use(cors());
 
@@ -19,6 +20,8 @@ app.use("/update", attendanceRoutes);
 app.use("/sendMessageforAbsent", sendMessage);
 // app.use("/newdoc", newDocRouter);
 
-app.listen(3001, () => {
-  console.log("server running");
+let port = process.env.PORT || 3001;
+
+app.listen(port, () => {
+  console.log("server running %s",port);
 });

@@ -15,5 +15,8 @@
     "fast-two-sms": "^3.0.0",
     "google-spreadsheet": "^3.1.15",
     "nodemon": "^2.0.12"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
