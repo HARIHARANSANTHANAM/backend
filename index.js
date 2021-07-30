@@ -20,8 +20,8 @@ app.use("/update", attendanceRoutes);
 app.use("/sendMessageforAbsent", sendMessage);
 // app.use("/newdoc", newDocRouter);
 
-let port = process.env.PORT || 3001;
 
-app.listen(port, () => {
-  console.log("server running %s",port);
+
+app.listen(process.env.PORT || 3001, () => {
+  console.log("server running %s",process.env.PORT || 3001);
 });
