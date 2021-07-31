@@ -1,9 +1,9 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "author": "",
@@ -17,5 +17,16 @@
   },
   "engines": {
     "node": "14.x"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HARIHARANSANTHANAM/backend.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/HARIHARANSANTHANAM/backend/issues"
+  },
+  "homepage": "https://github.com/HARIHARANSANTHANAM/backend#readme",
+  "description": ""
 }
