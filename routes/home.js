@@ -3,7 +3,7 @@ const router = express.Router();
 const {
   fetchClassDetails,
   sendId,
-} = require("../controllers/fetchClassDetails");
+} = require("../controllers/fetchClassDetails.js");
 
 router.param("id", fetchClassDetails);
 router.get("/:id", sendId);

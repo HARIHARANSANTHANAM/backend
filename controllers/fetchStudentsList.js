@@ -1,4 +1,4 @@
-const { setTodayHeader } = require("./updateDatabase.js");
+const { setTodayHeader } = require("./UpdateDatabase.js");
 const { GoogleSpreadsheet } = require("google-spreadsheet");
 const { initializeAuth } = require("../controllers/signin.js");
 require("dotenv").config();
